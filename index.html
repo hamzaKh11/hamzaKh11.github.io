@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamza</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/53782f9bc1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!-- start header --> 
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Data Scientist</p>
+            <h1>Hi, I'm <span>KHALID</span><br>Hamza From Morocco</h1>
+        </div>
+    </div>
+</div>
+<!-- end header -->
+
+<!-- start About -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>
+                    I am preparing for my Master’s degree in Data Science and Decision Support at the Faculty of Science and Technology. I am passionate about data collection, processing, analysis, and modeling, I have also been able to develop an innovative spirit and I tend more to integrate the field of entrepreneurship and leadership.
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active_link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span style="font-weight: bold;">Programming Languages</span><br>Python (Numpy, Pandas, matplotlib, Seaborn, Scikit-learn ...) <b>/</b> R</li>
+                        <li><span style="font-weight: bold;">Machine Learning</span><br>EDA <b>-</b> Supervised Machine Learning: Regression <b>/</b> Classification</li>
+                        <li><span style="font-weight: bold;">business intelligence</span><br>Tableau <b>-</b> Power BI</li>
+                        <li><span style="font-weight: bold;">SQL <b>/</b> NOSQL</span><br>MySQl <b>-</b> Postgresql <b>/</b> firebase <b>-</b> mongodb</li>
+                        <li><span style="font-weight: bold;">Web development front end</span><br>html <b>/</b> css <b>/</b> js <b>/</b> ts <b>/</b> Angular</li>
+                        <li><span style="font-weight: bold;">Web development back end</span><br>Laravel <b>/</b> Spring</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span style="font-weight: bold;">Supervised Machine Learning: Regression</span><br>Car Prices Prediction using LinearRegression - Lasso - Ridge </li>
+                        <li><span style="font-weight: bold;">Data Analysis, Visualization on AirBnb Dataset</span><br>Tableau Dashboard for Airbnb Data</li>
+                        <li><span style="font-weight: bold;">Web Scraping - NLP</span><br>Collect data from "le matin" website and process it using NLP</li>
+                        <li><span style="font-weight: bold;">Machine Learning - EDA</span><br>I processed and analyzed "titanic data set" and I carried out statistical studies</li>
+                        <li><span style="font-weight: bold;">Web Project : Car Rental</span><br>Website <b>:</b> Symfony <b>/</b> Angular <b>/</b> MySQL <b>-</b> Mobile App : Ionic</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span style="font-weight: bold;">2021-Present</span><br>Master degree <b>:</b> Data Science AND Decision Support at faculty of science and technology marrakech.</li>
+                        <li><span style="font-weight: bold;">2020-2021</span><br>Bachelor's degree <b>:</b> Distributed Computer Systems at faculty of science and technology marrakech.</li>
+                        <li><span style="font-weight: bold;">2018-2020</span><br>DEUST <b>:</b> MIP at faculty of science and technology marrakech.</li>
+                        <li><span style="font-weight: bold;">2018</span><br>high school diploma <b>:</b> physical science.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end About -->
+
+<!-- Start OF Services -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad tempore in perferendis ducimus praesentium expedita corporis error maiores asperiores eaque consequatur repellendus, sint similique illum, deserunt vel dolorum quas. Illum.
+                </p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/UX Design</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad tempore in perferendis ducimus praesentium expedita corporis error maiores asperiores eaque consequatur repellendus, sint similique illum, deserunt vel dolorum quas. Illum.
+                </p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad tempore in perferendis ducimus praesentium expedita corporis error maiores asperiores eaque consequatur repellendus, sint similique illum, deserunt vel dolorum quas. Illum.
+                </p>
+                <a href="#">learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END OF Services -->
+
+<!-- Start OF Portfolio -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Recent Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-7.png">
+                <div class="layer">
+                    <h3>Car Prices Prediction</h3>
+                    <p>The focus of this project is developing machine learning models that can accurately predict the price of a used car based on its features, in order to make informed purchases.</p>
+                    <a href="#"><i class="fa-solid fa-plus"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Natural Language Processing</h3>
+                    <p>Our project delivers high quality statistics of companies` E-reputation in order to help them improve their business and quality of work because a company's reputation can bring a lot of opportunities and collaborations to it.</p>
+                    <a href="#"><i class="fa-solid fa-plus"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Data Analysis Project</h3>
+                    <p>Data analysis is defined as a process of cleaning, transforming, and modeling data to discover useful information for business decision-making. The purpose of Data Analysis is to extract useful information from data and taking the decision based upon the data analysis.</p>
+                    <a href="#"><i class="fa-solid fa-plus"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="projects.html" class="btn">See more</a>
+    </div>
+</div>
+<!-- END OF Portfolio -->
+
+<!-- Start OF Contact -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> hamzakhalid0111@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> +212 651071047</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <iframe src="" name="hidden_iframe" id="hidden_iframe" style="display: none;" onload="if(submitted){
+                window.location = '#contact';
+                document.getElementById('myform').reset();
+                var confirm = document.getElementById('confirmation');
+                confirm.style.display = 'inline-block';
+                confirm.setAttribute('aria-hidden', false);
+                }">
+            </iframe>
+            <div class="contact-right">
+                <form action="https://docs.google.com/forms/u/2/d/e/1FAIpQLSedVuv1UarpNfx7HoVJZYIOQ5lJhk_2c-LPxgXPUJm1h-iWmQ/formResponse?pli=1" target="hidden_iframe" onsubmit="submitted=true" method="POST" id="myform">
+                    <input type="text" name="entry.783919593" placeholder="Your Name" required>
+                    <input type="text" name="entry.127301040" placeholder="Your Email" required>
+                    <textarea name="entry.1014807518" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <div id="confirmation" aria-hidden="true" style="display:none;">
+                    <p class="success">Thank You !</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <p>Copyright <span>Ⓒ</span> Khalid 2022. All rights reserved.</p>
+    </div>
+
+</div>
+<!-- END OF Contact -->
+
+<!-- Start OF Script JS -->
+<script>
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname) {
+
+    for(tablink of tablinks) {
+        tablink.classList.remove("active_link");
+    }
+
+    for(tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+    }
+
+    event.currentTarget.classList.add("active_link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+</script>
+
+<script>
+
+var sidemenu = document.getElementById('sidemenu');
+
+function openmenu() {
+    sidemenu.style.right = "0";
+}
+
+function closemenu() {
+    sidemenu.style.right = "-200px";
+}
+
+</script>
+
+<script>
+var submitted = false;
+</script>
+<!-- END OF Script JS -->
+</body>
+</html>
